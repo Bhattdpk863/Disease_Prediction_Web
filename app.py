@@ -4,7 +4,7 @@ import pickle
 
 
 #Importing our pickle file
-model = pickle.load(open('diabetes_pred.pkl', 'rb'))
+model = pickle.load(open('diab_pred.pkl', 'rb'))
 
 #Title of app
 st.title('The person is diabetic or not')
