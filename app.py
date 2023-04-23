@@ -4,7 +4,7 @@ import pickle
 
 
 #Importing our pickle file
-model = pickle.load(open('project.pkl', 'rb'))
+model = pickle.load(open('C:/Users/Deepak Bhatt/Desktop/ML Dataset/diab_pred.pkl', 'rb'))
 
 #Title of app
 st.title('Will the person make a purchase or not')
