@@ -4,7 +4,7 @@ import streamlit as st
 
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/Deepak Bhatt/Desktop/ML Dataset/diab_pred.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/Deepak Bhatt/Desktop/ML Dataset/diabetes_pred.pkl', 'rb'))
 
 
 # creating a function for Prediction
