@@ -18,11 +18,6 @@ BMI = st.text_input('BMI value')
 DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value')
 Age = st.text_input('Age of the Person')
 
-# #Range of paramenters
-# PageValues = st.slider("PageValues",0.00,200.76)
-# ExitRates = st.slider("ExitRates",0.000,0.200,step=0.001,format="%.3f")
-# ProductRelated_Duration = st.slider("ProductRelated_Duration",0.00,15000.00)
-# ProductRelated = st.slider("ProductRelated",0,200)
 
 #Pridiction function
 def predict():
